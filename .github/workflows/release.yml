@@ -62,9 +62,6 @@ jobs:
     steps:
       - uses: actions/checkout@master
 
-      - name: Install libarchive
-        run: brew install libarchive
-
       - name: Install Create-DMG
         run: brew install create-dmg
 
@@ -112,9 +109,6 @@ jobs:
       MACOSX_DEPLOYMENT_TARGET: "10.12"
     steps:
       - uses: actions/checkout@master
-
-      - name: Install libarchive
-        run: brew install libarchive
 
       - name: Install Create-DMG
         run: brew install create-dmg
