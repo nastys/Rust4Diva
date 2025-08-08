@@ -63,7 +63,7 @@ jobs:
       - uses: actions/checkout@master
 
       - name: Install libarchive
-        run: brew install libarchive
+        run: brew install --build-from-source libarchive
 
       - name: Install Create-DMG
         run: brew install create-dmg
@@ -114,7 +114,7 @@ jobs:
       - uses: actions/checkout@master
 
       - name: Install libarchive
-        run: brew install libarchive
+        run: brew install --build-from-source libarchive
 
       - name: Install Create-DMG
         run: brew install create-dmg
