@@ -65,9 +65,6 @@ jobs:
         id: slugify
         uses: eltimn/slugify-action@v2.0.2
 
-      - name: Install libarchive
-        run: brew install libarchive
-
       - name: Install Create-DMG
         run: brew install create-dmg
 
@@ -115,9 +112,6 @@ jobs:
       - name: "Run slugify"
         id: slugify
         uses: eltimn/slugify-action@v2.0.2
-
-      - name: Install libarchive
-        run: brew install libarchive
 
       - name: Install Create-DMG
         run: brew install create-dmg
